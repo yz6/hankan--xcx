@@ -1,0 +1,66 @@
+/* pages/cardBox/cardBox.wxss */
+
+.cardbox{
+  background: #F2F2F2;
+ height: 100vh;
+}
+.noCardImage{
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.noCardImage image{
+    width: 210rpx;
+  height: 210rpx;
+}
+.noCardText{
+  text-align: center;
+  color: #999999;
+  font-size: 28rpx;
+}
+.cardContent{
+  padding-top: 16rpx;
+}
+.cardList{
+  width: 98%;
+  height: 150rpx;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 16rpx;
+  display: flex;
+  border-radius: 16rpx;
+}
+.listLeft{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftHead{
+  width: 100rpx;
+  height: 100rpx;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+}
+.listRight{
+  padding-left: 20rpx;
+}
+.cardName{
+  color: #000000;
+  font-size: 32rpx;
+  margin-top: -6rpx;
+}
+.userName{
+  margin-top: 6rpx;
+  color: #999999;
+  font-size: 24rpx;
+}

@@ -1,0 +1,20 @@
+<!--pages/myAddress/myAddress.wxml-->
+<view class='content'>
+  <view class='addressBox'>
+    <view class='addressItem'>
+      <view class='itemTop'>
+        <view>王多鱼</view>
+        <view>18017265821</view>
+      </view>
+      <view class='itemBody'>上海市黄浦区金陵东路2号光明大厦8楼大白科技有限公司</view>
+      <view class='itemBottom'>
+        <view class='defaultAddress'>
+          <text class='defaultBIcon'></text> 默认地址</view>
+        <view class='btnBox'>
+          <text>编辑</text>
+          <text>删除</text> </view>
+      </view>
+    </view>
+  </view>
+  <view class='addBtn' bindtap='addAddress'>添加新地址</view>
+</view>

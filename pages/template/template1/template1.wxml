@@ -1,0 +1,60 @@
+<!--pages/template1/template1.wxml-->
+<view class='container'>
+  <view class='templageBox'>
+    <view class='templateBody'>
+      <swiper class='swiper-box' bindchange="swiperSwich">
+        <swiper-item class='templateItem'>
+          <view class='cardBox'>
+            <view class='one'>Photographer</view>
+            <view class='two'>金 小 珀</view>
+            <view class='three'>Oliver Queen</view>
+            <view class='four'>
+              <view>
+                <text style='font-size:32rpx;'>T.</text> 18930932440
+              </view>
+              <view style='margin-right:20rpx;'>
+                <text style='font-size:32rpx;'>E.</text> soliver@mynicecard..com
+              </view>
+            </view>
+            <view class='five'>
+              www.mynicecard.com
+            </view>
+
+          </view>
+        </swiper-item>
+        <swiper-item class='templateItem'>
+          <view class='cardBox'>
+            <view class='counter-one'>
+              Office
+            </view>
+            <view class='counter-two rotate-1'>
+              上海市徐汇区高安路9弄12号406室好看名片工作室
+            </view>
+            <view class='couter-three'>
+              www.mynicecard.com
+            </view>
+
+          </view>
+        </swiper-item>
+      </swiper>
+      <view class='swiperDot'>
+        <view class='swierDotItemBox'>
+          <view class='dotItem {{currentSwiper==0?"active":""}}'></view>
+          <view class='dotItem {{currentSwiper==1?"active":""}}'></view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class='bottomBar'>
+    <view class='kefu'>
+      <button open-type="contact">
+        <image style='width:50rpx;height:50rpx;' src='../../../images/kefu@2x.png'></image>客服</button>
+    </view>
+    <view>
+      <image style='width:56rpx;height:56rpx;' src='../../../images/yulan@2x.png' bindtap='loadFont'></image> 预览</view>
+    <view>
+      <image style='width:56rpx;height:56rpx;' src='../../../images/xihuan@2x.png'></image> 喜欢</view>
+    <view bindtap='goForm' class='bianjiBtn'>编辑名片</view>
+  </view>
+</view>

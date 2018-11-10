@@ -1,0 +1,77 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.3",
+	"appid": "wx43a7b80e81cc043b",
+	"projectname": "%E5%A5%BD%E7%9C%8B",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "模板1-form",
+					"pathName": "pages/template/template1-form/template1-form",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "模板1",
+					"pathName": "pages/template/template1/template1",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "编辑地址",
+					"pathName": "pages/editAddress/editAddress",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "编辑地址",
+					"pathName": "pages/template/template1-form/template1-form",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模板2",
+					"pathName": "pages/template/template2/template2",
+					"query": ""
+				}
+			]
+		}
+	}
+}

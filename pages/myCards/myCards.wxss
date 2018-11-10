@@ -1,0 +1,50 @@
+/* pages/myCards/myCards.wxss */
+.content{
+  height: 100vh;
+  width: 100%;
+  background: #F2F2F2;
+}
+.contentBody{
+  padding-top: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyBox>view{
+  margin: 20rpx 0;
+  color: #232321;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+}
+.bodyBox{
+  width: 100%;
+  text-align: center;
+}
+.numIcon{
+  width: 72rpx;
+  height: 72rpx;
+  background: #FADD00;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 72rpx;
+  font-size: 30rpx;
+}
+.bodyBox>.iconBox{
+  margin-top: 50rpx;
+}
+.vDotted{
+  width: 1rpx;
+  height: 60rpx;
+  border-right: 1rpx dashed  #707070;
+}
+.addMyCardBtn{
+  width: 90%;
+  height: 96rpx;
+  background: #284E99;
+  border-radius: 10rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 96rpx;
+  font-size: 30rpx;
+}

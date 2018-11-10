@@ -1,0 +1,20 @@
+<!--pages/myLike/myLike.wxml-->
+<view class='content'>
+  <!-- 没有喜欢 -->
+  <view class='noLikeLogoBox' wx:if="{{cardList.length == 0}}">
+    <view>
+      <view class='cetner'>
+        <image src='../../images/nolike@2x.png'></image>
+      </view>
+      <view class='cetner' style='padding-top:30rpx;'>
+        <text>还未收藏喜欢的样式</text>
+      </view>
+    </view>
+  </view>
+  <!-- 主体 -->
+  <view class='contentBox clearfloat'>
+ <view class='cardList' wx:for="{{cardList}}" wx:key style='background-image:url("{{item.image}}");margin:16.5rpx; {{index%2==0?"margin-left:32rpx;":"margin-right:32rpx;"}}'>
+      </view> 
+    
+   </view>
+</view>

@@ -1,0 +1,52 @@
+/* pages/my/my.wxss */  
+.van-popup--show {
+  height: 30vh;
+}
+.temItem{
+  width: 326rpx;
+  height: 536rpx;
+  border-radius: 20rpx;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 30rpx;
+  margin-left: 33rpx;
+}
+.topTab{
+  width: 100%;
+  display: flex;
+  background: #fff;
+  font-size: 32rpx;
+  color: #232321;
+  height: 5vh;
+}
+.tabItem{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.itemBox{
+  width: 78rpx;
+  text-align: center;
+  padding-bottom: 8rpx;
+  box-sizing: border-box;
+}
+.itemBox.active{
+  border-bottom: 4rpx #284E99 solid;
+}
+.contentBox{
+  height: 95vh;
+  background: #F2F2F2;
+  display: flex;
+  justify-content: center;
+}
+.picker{
+  height: 100%;
+}
+
+
+.testFont{
+  font-family: FuturaNDAlt;
+  writing-mode:tb-rl;
+}

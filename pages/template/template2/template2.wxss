@@ -1,0 +1,103 @@
+/* pages/template/template2/template2.wxss */
+.cardBox{
+  position: relative;
+  background-image: url('http://image.mynicecard.com/images/79088e6ca7ba4ca1a317fb70ff5df69a.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardBox .one{
+ float: right;
+ margin-right: 44rpx;
+ margin-top: 52rpx;
+
+}
+.cardBox .one image{
+  width: 102rpx;
+  height: 306rpx;
+}
+.two{
+  position: absolute;
+  top:60%;
+  font-size: 20rpx;
+  margin-left: 30rpx;
+  line-height: 34rpx;
+}
+.two>view{
+  display: flex;
+  align-items: flex-start;
+  margin: 8rpx 0;
+  color: #595757;
+  letter-spacing: 2rpx;
+  max-width: 400rpx;
+  word-break:break-all;   
+}
+.rightWords{
+  width: calc(100% - 24rpx);
+}
+.two>view:first-child{
+  margin: 16rpx 0;
+  letter-spacing: 10rpx;
+}
+.two>.zhiwei{
+  margin: 16rpx 0;
+  letter-spacing: 10rpx;
+}
+.two image{
+  width: 26rpx;
+  height: 24rpx;
+  margin-right: 20rpx;
+  margin-top: 6rpx;
+}
+.two .name{
+   font-size: 40rpx;
+}
+.two .name.counter{
+   letter-spacing: 0rpx;
+}
+.two>.zhiwei.counter{
+    letter-spacing: 0;
+}
+.mycardbottom{
+  background: #F2F2F2;
+}
+.templageBox{
+  height: 90vh;
+}
+.bottomItem image{
+  width: 100%;
+  height: 100%;
+}
+.mycardbottom{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 83vw;
+  padding: 0 8.5vw;
+}
+.bottomItem:first-child{
+  margin-right: 30rpx;
+}
+
+.bottomDot .dotItem{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background: #D1D1D1;
+}
+.dotItem.active{
+   background: #FADD00;
+ }
+ .bottomDot{
+   margin: 0 auto;
+    height: 100%;
+  display: flex;
+  align-items: center;
+ }
+.bottomDot .swierDotItemBox{
+  width: 10vh;
+}
+.bottomItem{
+  width: 80rpx;
+  height: 80rpx;
+}

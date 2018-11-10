@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我喜欢的",
+  "usingComponents": {
+    "van-row": "/dist/row/index",
+    "van-col": "/dist/col/index"
+  }
+}

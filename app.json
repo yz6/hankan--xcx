@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/cardBox/cardBox",
+    "pages/editAddress/editAddress",
+    "pages/myAddress/myAddress",
+    "pages/myCards/myCards",
+    "pages/myLike/myLike",
+    "pages/cropper/cropper",
+    "pages/template/template1/template1",
+    "pages/template/template1-form/template1-form",
+    "pages/template/template2/template2",
+    "pages/template/template2-form/template2-form"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "好看名片",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#000000",
+      "borderStyle": "#F8F8F8",
+      "selectedColor":"#000000",
+      "backgroundColor":"#fffff",
+      "list": [
+        {
+          "text": "商店",
+          "selectedIconPath": "images/shop@2x.png",
+          "iconPath": "images/shop-2@2x.png",
+          "pagePath": "pages/index/index"
+        },
+        {
+          "text": "名片盒",
+          "selectedIconPath": "images/card@2x.png",
+          "iconPath": "images/card-2@2x.png",
+          "pagePath": "pages/cardBox/cardBox"
+        },
+        {
+          "text": "我的",
+          "selectedIconPath": "images/mine@2x.png",
+          "iconPath": "images/mine-2@2x.png",
+          "pagePath": "pages/my/my"
+        }
+      ]
+    }
+}

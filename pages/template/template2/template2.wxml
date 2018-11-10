@@ -1,0 +1,87 @@
+<!--pages/template1/template2.wxml-->
+<view class='container'>
+  <view class='templageBox'>
+    <view class='templateBody'>
+      <swiper class='swiper-box' bindchange="swiperSwich">
+        <swiper-item class='templateItem'>
+          <view class='cardBox'>
+            <view class='one'>
+              <image src='../../../images/zu462@3x.png'></image>
+            </view>
+            <view class='two rotate-2'>
+              <view class='name'>阿秋</view>
+              <view> 创意总监</view>
+              <view>
+                <image class='rotate-3' src='../../../images/add@3x.png'></image>
+                <view class='rightWords'>上海市徐汇区高安路7号 200031</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/phone@3x.png'></image>
+                <view class='rightWords'>TEL 021-54562391</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/print@3x.png'></image>
+                <view class='rightWords'>FAX 021-54562391</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/mobile@3x.png'></image>
+                <view class='rightWords'>18310396990</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/email@3x.png'></image>
+                <view class='rightWords'>jingya.liu@outlook.com</view>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item class='templateItem'>
+          <view class='cardBox'>
+            <view class='one'>
+              <image src='../../../images/zu462@3x.png'></image>
+            </view>
+            <view class='two rotate-2'>
+              <view class='name counter'>Jennifer Liu</view>
+              <view class='zhiwei counter'> Partner</view>
+              <view>
+                <image class='rotate-3' src='../../../images/add@3x.png'></image>
+                <view class='rightWords'>No.7, Gaoan Road, Xuhui District, Shanghai, 200031</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/phone@3x.png'></image>
+                <view class='rightWords'>TEL 021-54562391</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/print@3x.png'></image>
+                <view class='rightWords'>FAX 021-54562391</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/mobile@3x.png'></image>
+                <view class='rightWords'>18310396990</view>
+              </view>
+              <view>
+                <image class='rotate-3' src='../../../images/email@3x.png'></image>
+                <view class='rightWords'>jingya.liu@outlook.com</view>
+              </view>
+            </view>
+
+          </view>
+        </swiper-item>
+      </swiper>
+   
+    </view>
+
+  </view>
+  <view class='mycardbottom'>
+ 
+    <image  class='bottomItem' src='../../../images/edit@2x.png'></image>
+    <image  class='bottomItem' src='../../../images/dayin@2x.png'></image>
+    
+       <view class='bottomDot'>
+        <view class='swierDotItemBox'>
+          <view class='dotItem {{currentSwiper==0?"active":""}}'></view>
+          <view class='dotItem {{currentSwiper==1?"active":""}}'></view>
+        </view>
+      </view>
+  <image class='bottomItem' src='../../../images/SHARE@2x.png'></image>
+  </view>
+</view>

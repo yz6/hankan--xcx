@@ -1,0 +1,16 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <view class="topTab">
+    <view class='tabItem' bindtap='switchType' data-type="0">
+      <view class="itemBox {{cardListType=='0'? 'active':''}}">最新</view>
+    </view>
+    <view class='tabItem' bindtap='switchType' data-type="1">
+      <view class="itemBox {{cardListType=='1'?'active':''}}">最热</view>
+    </view>
+  </view>
+  <view class='contentBox'>
+    <view>
+      <view bindtap='goTemplagePage' class='temItem' style='background-image:url("{{item.url}}")' wx:for='{{temData}}'></view>
+      </view>
+  </view>
+</view>

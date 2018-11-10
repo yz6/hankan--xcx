@@ -1,0 +1,18 @@
+<!--pages/template/template1-form/template1-form.wxml-->
+<view class='content'>
+  <view class="formBox">
+    <van-cell-group>
+      <van-field value="{{ cName }}" placeholder="您的名字" label="名字" bind:change="onChange" />
+      <van-field value="{{ eName }}" placeholder="您的英文名" label="英文名" type="number" bind:change="onChange" />
+         <van-field value="{{ userPhone }}" placeholder="您的职业或职位" label="职业" type="number" bind:change="onChange" />
+           <van-field value="{{ userPhone }}" placeholder="您的手机号" label="手机号码" type="number" bind:change="onChange" />
+           <van-field value="{{ userPhone }}" placeholder="您的邮箱地址" label="E-MAIL" type="number" bind:change="onChange" />
+             <view style="margin-top:20rpx;"></view>
+             <van-field value="{{ userPhone }}" placeholder="您的网址或主页" label="网址" type="number" bind:change="onChange" />
+      <van-field   value="{{detailedAddress}}" label="详细地址" type="textarea" placeholder="请输入详细地址" autosize border="{{ false }}" /> 
+    
+    </van-cell-group>
+  
+  </view>
+  <view class='subMitBox' style='font-family:"宋体"'>保存</view>
+</view>

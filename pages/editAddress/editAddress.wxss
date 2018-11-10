@@ -1,0 +1,48 @@
+/* pages/editAddress/editAddress.wxss */
+.content{
+  height: 100vh;
+  background: #F2F2F2;
+  width: 100%;
+}
+.formBox .van-cell__title{
+  color: #999999;
+  font-size: 30rpx;
+}
+.formBox{
+  padding-top: 10rpx;
+  margin-bottom: 30rpx;
+}
+.cityCell  .van-cell__title{
+  max-width: 90px;min-width: 90px
+}
+.cityCell  .van-cell__value{
+  text-align: left;
+}
+.pickerBox{
+  height: 100%;
+}
+.pickerBox picker{
+  height: 100%;
+}
+.picker{
+  height: 100%;
+}
+.placeholder{
+  color: #777777;
+}
+.subMitBox{
+  width: 90%;
+  margin: 0 auto;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: #fff;
+  background: #284E99;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

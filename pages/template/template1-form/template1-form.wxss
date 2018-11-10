@@ -1,0 +1,2 @@
+/* pages/template/template1-form/template1-form.wxss */
+@import '../../editAddress/editAddress.wxss'

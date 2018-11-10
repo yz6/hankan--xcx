@@ -1,0 +1,30 @@
+<!--pages/myCards/myCards.wxml-->
+<view class='content'>
+  <view class='contentBody'>
+    <view class='bodyBox'>
+      <view class='iconBox'>
+        <view class='numIcon'>1</view>
+      </view>
+      <view>选择免费或解锁收费样式</view>
+      <view class='iconBox'>
+        <view class='numIcon'>2</view>
+      </view>
+      <view>填写名片资料，生成名片</view>
+      <view class='iconBox'>
+        <view class='numIcon'>3</view>
+      </view>
+      <view style='margin-bottom:30rpx;'>分享名片或打印名片</view>
+
+      <view>
+        <view class='vDotted'></view>
+      </view>
+      <view style='color:#000;'>您还没有创建名片</view>
+      <view>
+        <view class='vDotted'></view>
+      </view>
+      <view>
+        <view class='addMyCardBtn'>创建我的名片</view>
+      </view>
+    </view>
+  </view>
+</view>

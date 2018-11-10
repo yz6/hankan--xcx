@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userInfoBox">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+      <block wx:else>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+      </block>
+      <text wx:if="{{!hasUserInfo && canIUse}}" class="userinfo-nickname">点击获取头像</text>
+      <text class="userinfo-nickname">{{userPhone}}</text>
+    </view>
+  </view>
+  <view class="bindingPhone">
+    <image src='../../images/mobile@2x.png'></image>
+    <view>找不到订单？绑定手机试试</view>
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+      立即绑定
+    </button>
+  </view>
+  <view class='cellBox'>
+    <van-cell-group>
+  <van-cell title="我的名片" url="/pages/myCards/myCards">
+    <view slot="icon" class='leftIcon'>
+      <image  src='../../images/mingpian@2x.png'></image>
+    </view>
+  </van-cell>
+   <van-cell title="我喜欢的" url="/pages/myLike/myLike" >
+    <view slot="icon" class='leftIcon'>
+      <image  src='../../images/xihuan@2x.png'></image>
+    </view>
+  </van-cell>
+   <van-cell title="我的订单" >
+    <view slot="icon" class='leftIcon'>
+      <image  src='../../images/dingdan@2x.png'></image>
+    </view>
+  </van-cell>
+  
+   <van-cell title="我的收货地址" url="/pages/myAddress/myAddress">
+    <view slot="icon" class='leftIcon'>
+      <image  src='../../images/dizhi@2x.png'></image>
+    </view>
+  </van-cell>
+ 
+   <van-cell title="设计服务" >
+    <view slot="icon" class='leftIcon'>
+      <image  src='../../images/fuwu@2x.png'></image>
+    </view>
+  </van-cell>
+</van-cell-group>
+  </view>
+</view>

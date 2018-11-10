@@ -1,0 +1,24 @@
+<!--pages/cardBox/cardBox.wxml-->
+<view class='cardbox'>
+  <!-- 没有名片展示 -->
+  <view class="noCard" hidden="{{cardList.length>0}}">
+    <view class="noCardImage">
+      <image src='../../images/默认@2x.png'></image>
+    </view>
+    <view class='noCardText'>还未收藏他人的名片</view>
+  </view>
+  <!-- 有名片展示 -->
+  <view class='cardContent'>
+    <view class='cardList' wx:for="{{cardList}}" wx:key>
+      <view class='listLeft'>
+        <view class='leftHead' style='background-image:url("{{item.image}}")'></view>
+      </view>
+      <view class='listRight'>
+        <view>
+          <view class='cardName'>{{item.nickName}}的名片</view>
+          <view class='userName'>{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
